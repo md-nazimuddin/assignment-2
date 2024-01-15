@@ -63,3 +63,233 @@ header {
 
 
         /*  *********************** Navbar section End ***********************  */
+
+
+         /********************** Find-now section start **********************/ 
+         
+
+
+.find-now-container {
+    height: 410px;
+    text-align: center;
+    border-radius: 13px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(B9A2-Hero-Travel/Images/Group-1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+.find-now-title {
+    color: #FFF;
+    font-size: 3.28rem;
+    font-weight: 800;
+}
+.find-now-details {
+    color: #FFF;
+    font-size: .87rem;
+    font-weight: 400;
+}       
+.input-box {
+    height: 43px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+
+
+         /********************** Find-now section end **********************/ 
+
+    /************************ Header section End ************************/
+
+
+
+
+       /************************ Main section start ************************/
+ main {
+    width: 82%;
+    margin: 0 auto;
+ }
+
+        /********************** Popular section start **********************/
+
+
+.popular-container {
+    margin: 82px 0 ;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}       
+.popular-data {
+    width: 48%;
+}
+.popular-pic {
+    width: 48%;
+    
+}
+.popular-pic img {
+    width: 100%;
+}
+.popular-title {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.popular-details {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.popular-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+    background-color: var(--btn-background-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: .6rem;
+}
+.popular-data li {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+    padding: 14px 0 ;
+}
+.popular-data ul {
+    padding-left: 15px;
+}
+
+
+        /********************** Popular section End **********************/
+
+
+        /********************** destination section Start **********************/
+
+.destination-container {
+    width: 50%;
+    text-align: center;
+    margin: 82px auto 50px auto;
+}
+.destination-title {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+}  
+.destination-details {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+}      
+
+
+
+.choose-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.choose-title {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.choose-details {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+}
+
+
+
+        /********************** Hwd section Start **********************/
+
+
+.hwd-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.hwd-box {
+    height: 230px;
+    background-color: rgba(139, 139, 139, 0.231);
+    width: 48%;
+    border-radius: 1rem;
+}
+.hwd-pic {
+    padding: 25px;
+}
+.hwd-title {
+    color: var(--primary-text-color);
+    font-size: 1.23rem;
+    font-weight: 800;
+    padding: 0 25px;
+}
+.hwd-details {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+    padding: 13px 25px 13px 25px;
+}
+.hwd-best {
+    height: 230px;
+    background-color: rgba(139, 139, 139, 0.231);
+    width: 48%;
+    border-radius: 1rem;
+    margin: 20px auto;
+}
+
+
+        /********************** Hwd section End **********************/
+
+
+         /********************** Deals section Start **********************/ 
+
+.deals {
+    margin-top: 80px;
+}      
+.deals-container {
+    width: 50%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+
+}  
+.deals-title {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: 800;
+}   
+.deals-details {
+    color: var(--secondary-text-color);
+    font-size: .87rem;
+    font-weight: 400;
+    padding: 20px 0;
+}    
+
+
+.dd3 {
+    height: 410px;
+    background-image: url(B9A2-Hero-Travel/Images/Group-39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+    display: flex;
+    padding-right: 46px;
+    justify-content: right;
+    align-items: center;
+}
+.dd3-head {
+    display: flex;
+    gap: 1rem;
+    padding:40px 40px 20px 40px;
+}
+.dd3-container {
+    height: 318px;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    width: 45%;
+}
+
