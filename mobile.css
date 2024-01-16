@@ -140,5 +140,33 @@
      .simple-video {
         width: 100%;
      }
+     .video-overlay h2 {
+        font-size: 1rem;
+        margin: 0%;
+        width: 80%;
+     }
+
+
+     .newslatter-container {
+        flex-direction: column;
+     }
+     .newslatter-data {
+        width: 100%;
+     }
+     .newslatter-pic {
+        width: 100%;
+     }
+
+
+     .last-container {
+        width: 100%;
+     }
+
+     footer {
+        height: 80px ;
+     }
+     footer p {
+        padding-top: 30px;
+     }
 
 } 
