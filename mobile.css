@@ -17,11 +17,13 @@
     .input-box {
         flex-direction: column;
         align-items: center;
+        height: auto;
+        gap: 10px;
 
     }
+    
     .find-fix {
         width: 80%;
-        height: 50vh;
     
     }
     .find-now-title {
