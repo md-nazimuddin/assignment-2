@@ -636,6 +636,45 @@ header {
 
          /******************** Last section End ********************/
 
+.bonus-container {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin-bottom: 70px;
+}
+.bonus-pic {
+    width: 46%;
+    background-image: url(B9A2-Hero-Travel/Images/bonus-pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bonus-pic img {
+    width: 100%;
+}
+.bonus-data {
+    width: 46%;
+}
+.bonus-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.bonus-details {
+    font-size: 1rem;
+    color: #5A5A5D;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.bonus-btn {
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+    background-color: var(--btn-background-color);
+    padding: 10px 18px;
+    border: none;
+    border-radius: .5rem;
+}
+
          /******************** Main section End ********************/
 
          /******************** Footer section Start ********************/

@@ -190,6 +190,21 @@
      }
 
 
+     .bonus-container {
+      flex-direction: column;
+      height: auto;
+     }
+     .bonus-data {
+      width: 100%;
+      height: 300px;
+     }
+     .bonus-pic {
+      width: 100%;
+      height: 300px;
+     }
+     
+
+
      .last-container {
         width: 100%;
      }
