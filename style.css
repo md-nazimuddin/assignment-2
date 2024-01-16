@@ -59,7 +59,11 @@ header {
 #home {
     color: var(--btn-background-color);
     font-weight: 700;
-}      
+}  
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+}    
 
 
         /*  *********************** Navbar section End ***********************  */
@@ -119,7 +123,7 @@ header {
     border-radius:.5rem ;
     border: none;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--secondary-text-color);
 }
 
@@ -650,3 +654,6 @@ footer p {
 }
 
          /******************** Footer section End ********************/
+ 
+         
+        
